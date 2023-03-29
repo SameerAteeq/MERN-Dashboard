@@ -8,7 +8,6 @@ import { useGetAdminsQuery } from "state/api";
 const Admins = () => {
   const theme = useTheme();
   const { data, isLoading } = useGetAdminsQuery();
-  console.log("🚀 ~ file: index.js:11 ~ Admins ~ data:", data);
   const columns = [
     {
       field: "_id",

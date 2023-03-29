@@ -16,10 +16,6 @@ const Daily = () => {
   const [formattedData] = useMemo(() => {
     if (!data) return [];
     const { dailyData } = data;
-    console.log(
-      "🚀 ~ file: index.js:14 ~ const[formattedData]=useMemo ~ dailyData:",
-      dailyData
-    );
 
     const totalSalesLine = {
       id: "totalSales",
